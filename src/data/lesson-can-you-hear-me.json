@@ -1,0 +1,51 @@
+{
+  "id": "lesson-001",
+  "expression": {
+    "text": "Can you hear me?",
+    "translation": "Consegue me ouvir?",
+    "words": ["Can", "you", "hear", "me?"],
+    "pronunciation": "/kæn juː hɪər miː/"
+  },
+  "whenToUse": {
+    "titlePT": "Iniciar Apresentações Online",
+    "titleEN": "Starting Online Presentations",
+    "description": "Use esta expressão no início de reuniões virtuais, webinars ou apresentações online para garantir que todos conseguem ouvir você claramente.",
+    "tags": ["Online meeting", "Presentation", "Audio check"],
+    "images": []
+  },
+  "situations": [
+    {
+      "id": "sit-1",
+      "titlePT": "🎤 Situação 1: Início de Reunião Virtual",
+      "titleEN": "🎤 Situation 1: Starting a Virtual Meeting",
+      "descriptionPT": "Você entra em uma reunião do Zoom com 15 pessoas. Sua câmera está ligada, mas você não tem certeza se o microfone está funcionando. Todos estão em silêncio esperando você começar.",
+      "descriptionEN": "You join a Zoom meeting with 15 people. Your camera is on, but you're not sure if your microphone is working. Everyone is silent, waiting for you to start.",
+      "contextPT": "💡 O que fazer? Você precisa confirmar que todos conseguem te ouvir antes de começar a apresentação.",
+      "contextEN": "💡 What to do? You need to confirm everyone can hear you before starting your presentation.",
+      "answer": ["Can", "you", "hear", "me?"],
+      "answerColors": ["#00d4ff", "#b24bf3", "#00ff88", "#ff1744"]
+    },
+    {
+      "id": "sit-2",
+      "titlePT": "📱 Situação 2: Problemas Técnicos",
+      "titleEN": "📱 Situation 2: Technical Issues",
+      "descriptionPT": "Você está apresentando para clientes internacionais. De repente, você percebe que algumas pessoas estão fazendo gestos apontando para os ouvidos. Parece que há um problema de áudio.",
+      "descriptionEN": "You're presenting to international clients. Suddenly, you notice some people making gestures pointing to their ears. It seems there's an audio problem.",
+      "contextPT": "💡 O que fazer? Você precisa pausar e verificar se todos ainda conseguem te ouvir.",
+      "contextEN": "💡 What to do? You need to pause and check if everyone can still hear you.",
+      "answer": ["Can", "you", "hear", "me?"],
+      "answerColors": ["#00d4ff", "#b24bf3", "#00ff88", "#ff1744"]
+    },
+    {
+      "id": "sit-3",
+      "titlePT": "🎓 Situação 3: Aula Online",
+      "titleEN": "🎓 Situation 3: Online Class",
+      "descriptionPT": "Você é professor e está começando uma aula online com 30 alunos. Você acabou de compartilhar sua tela e quer garantir que o áudio está claro antes de começar a explicar o conteúdo.",
+      "descriptionEN": "You're a teacher starting an online class with 30 students. You just shared your screen and want to ensure the audio is clear before explaining the content.",
+      "contextPT": "💡 O que fazer? Confirme que todos os alunos conseguem te ouvir claramente.",
+      "contextEN": "💡 What to do? Confirm that all students can hear you clearly.",
+      "answer": ["Can", "you", "hear", "me?"],
+      "answerColors": ["#00d4ff", "#b24bf3", "#00ff88", "#ff1744"]
+    }
+  ]
+}

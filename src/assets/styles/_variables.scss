@@ -1,0 +1,35 @@
+// Star Wars + AI Color Palette
+$dark-space: #0a0e27;
+$empire-gray: #1a1d2e;
+$lightsaber-blue: #00d4ff;
+$lightsaber-purple: #b24bf3;
+$empire-red: #ff1744;
+$jedi-green: #00ff88;
+$ai-cyan: #00f5ff;
+
+// Gradients
+$gradient-ai-1: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+$gradient-ai-2: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+$gradient-ai-3: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+$gradient-starwars: linear-gradient(135deg, #ff1744 0%, #00d4ff 100%);
+$gradient-button: linear-gradient(135deg, #ff006e 0%, #00d4ff 50%, #00ff88 100%);
+
+// Typography
+$font-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+$font-display: 'Orbitron', monospace;
+
+// Spacing
+$spacing-xs: 0.5rem;
+$spacing-sm: 1rem;
+$spacing-md: 1.5rem;
+$spacing-lg: 2rem;
+$spacing-xl: 3rem;
+
+// Border Radius
+$radius-sm: 8px;
+$radius-md: 16px;
+$radius-lg: 24px;
+
+// Transitions
+$transition-fast: 0.2s ease;
+$transition-smooth: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
