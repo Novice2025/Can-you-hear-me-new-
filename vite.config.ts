@@ -12,7 +12,8 @@ export default defineConfig({
       ]
     })
   ],
-  base: './',
+  // THIS IS THE CRITICAL CHANGE FOR GITHUB PAGES
+  base: '/Can-you-hear-me-new-/', // <--- CHANGE THIS LINE to your repository name
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src')
@@ -26,6 +27,6 @@ export default defineConfig({
     }
   },
   build: {
-    outDir: 'docs'
+    outDir: 'docs' // Output to 'docs' folder for GitHub Pages
   }
 })
