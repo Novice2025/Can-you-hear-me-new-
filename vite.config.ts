@@ -12,8 +12,8 @@ export default defineConfig({
       ]
     })
   ],
-  // THIS IS THE CRITICAL CHANGE FOR GITHUB PAGES
-  base: '/Can-you-hear-me-new-/', // <--- CHANGE THIS LINE to your repository name
+  // CRITICAL CHANGE: Ensure base is absolute for GitHub Pages
+  base: '/Can-you-hear-me-new-/', // <--- THIS MUST BE YOUR REPO NAME
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src')
@@ -27,6 +27,15 @@ export default defineConfig({
     }
   },
   build: {
-    outDir: 'docs' // Output to 'docs' folder for GitHub Pages
+    outDir: 'docs', // Output to 'docs' folder for GitHub Pages
+    assetsDir: 'assets', // Ensure assets are in 'docs/assets'
+    rollupOptions: {
+      output: {
+        // Ensure all chunks and assets are loaded with the correct base path
+        entryFileNames: `assets/[name]-[hash].js`,
+        chunkFileNames: `assets/[name]-[hash].js`,
+        assetFileNames: `assets/[name]-[hash].[ext]`
+      }
+    }
   }
 })
