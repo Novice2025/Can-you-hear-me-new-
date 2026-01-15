@@ -1,0 +1,29 @@
+{
+  "id": "lesson-xxx",
+  "expression": {
+    "text": "EXPRESSION HERE",
+    "translation": "TRADUÇÃO AQUI",
+    "words": ["word1", "word2", "word3"],
+    "pronunciation": "/pronunciation here/"
+  },
+  "whenToUse": {
+    "titlePT": "Título em Português",
+    "titleEN": "Title in English",
+    "description": "Short description of use.",
+    "tags": ["tag1", "tag2"],
+    "images": []
+  },
+  "situations": [
+    {
+      "id": "sit-1",
+      "titlePT": "🎤 Situação 1",
+      "titleEN": "🎤 Situation 1",
+      "descriptionPT": "Descrição em português.",
+      "descriptionEN": "Description in English.",
+      "contextPT": "💡 Contexto PT",
+      "contextEN": "💡 Context EN",
+      "answer": ["word1", "word2", "word3"],
+      "answerColors": ["#00d4ff", "#b24bf3", "#00ff88"]
+    }
+  ]
+}
