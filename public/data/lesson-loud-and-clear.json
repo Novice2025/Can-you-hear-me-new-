@@ -1,0 +1,44 @@
+{
+  "id": "lesson-loud-and-clear",
+  "title": "Loud and Clear",
+  "description": "A confident, friendly response meaning you hear someone perfectly. Use it in calls, meetings, and presentations.",
+  "expressions": [
+    {
+      "id": "loud-and-clear",
+      "expression": "Loud and Clear",
+      "pronunciation": "/laʊd ən klɪr/",
+      "whenToUse": "Use this when someone asks if you can hear them. It expresses clarity, confidence, and readiness — perfect for meetings, calls, and presentations.",
+      "situations": [
+        {
+          "situation": "Video call with a friend",
+          "example": "Friend: 'Can you hear me?' You: 'Loud and clear!'",
+          "context": "Confirms you hear them perfectly on a social call."
+        },
+        {
+          "situation": "Online work meeting",
+          "example": "Manager: 'Is my mic okay?' You: 'Yep, loud and clear.'",
+          "context": "Shows professionalism and readiness."
+        },
+        {
+          "situation": "Live presentation",
+          "example": "Speaker: 'Can everyone hear me at the back?' You: 'Loud and clear!'",
+          "context": "Used in large rooms to check audio reach."
+        },
+        {
+          "situation": "Phone call with a client",
+          "example": "Client: 'Is the call clear on your side?' You: 'Loud and clear.'",
+          "context": "Polite reassurance during business calls."
+        }
+      ],
+      "writingPrompt": "Write a short dialogue where someone checks if you can hear them, and you respond with 'Loud and clear.' Include who you are talking to and where you are.",
+      "practicePrompt": "Record yourself saying 'Loud and clear' in 3 tones: friendly, professional, excited. Notice how tone changes the message."
+    }
+  ],
+  "metadata": {
+    "difficulty": "beginner",
+    "category": "communication",
+    "tags": ["audio", "confirmation", "response"],
+    "createdDate": "2026-01-15",
+    "updatedDate": "2026-01-15"
+  }
+}
