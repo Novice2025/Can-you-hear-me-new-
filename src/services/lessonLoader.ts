@@ -1,5 +1,7 @@
 export async function loadLesson(lessonId: string) {
-  const lessonUrl = `/src/data/${lessonId}.json`
+  // Corrected path: looks for data/lessonId.json at the root of the deployed site
+  // Since you moved your files to public/data, they will be accessible at /data/ in the deployed site.
+  const lessonUrl = `./data/${lessonId}.json` // <--- THIS LINE IS CHANGED
 
   try {
     const response = await fetch(lessonUrl)
